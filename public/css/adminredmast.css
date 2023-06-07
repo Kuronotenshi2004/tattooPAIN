@@ -1,0 +1,326 @@
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #0F0F0F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&display=swap');
+
+textarea:focus,
+input:focus {
+    outline: 0;
+}
+
+textarea,
+input,
+button,
+label,
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+select,
+::placeholder {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #0f0f0f;
+    box-sizing: border-box;
+    border-bottom: 1px solid #FFFFFF;
+    background-size: cover;
+    height: 14vh;
+}
+
+
+
+.nav1 {
+    width: 45%;
+    font-size: 1.3vw;
+    list-style: none;
+    display: flex;
+    margin-top: 2.4vw;
+    justify-content: center;
+    position: absolute;
+}
+
+.nav2 {
+    width: 45%;
+    font-size: 1.3vw;
+    list-style: none;
+    display: flex;
+    margin-left: 55vw;
+    margin-top: -3vw;
+    justify-content: center;
+    position: absolute;
+
+}
+
+
+.theader {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.logotip {
+    height: 5vw;
+}
+
+.main,
+.entry,
+.master,
+.portf,
+.reg,
+.number {
+    width: 17%;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 2vw 2vw 0 2vw;
+}
+
+.main:hover,
+.entry:hover,
+.master:hover,
+.portf:hover,
+.reg:hover,
+.number:hover,
+.main:focus,
+.entry:focus,
+.master:focus,
+.portf:focus,
+.reg:focus,
+.number:focus {
+    background-color: #ffffff96;
+    color: #000;
+    padding: 0.5vw 0vw;
+}
+
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    /*padding: 5vw 10vw;
+    width: 100%;*/
+}
+
+.obsh {
+    display: block;
+    width: 17vw;
+    margin-right: 3.5vw;
+
+}
+
+h3 {
+
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 0vw 0 0.5vw 0;
+}
+
+input {
+    width: 17vw;
+    font-size: 14px;
+    margin: 0.5vw 0 3vw 0;
+    padding: 0.8vw;
+    border: unset;
+    border: solid 0.1vw #ffffff;
+    outline: none;
+    background-color: #0F0F0F;
+}
+
+.arrow {
+    margin: 4.5vw 0 0 0vw;
+    cursor: pointer;
+    width: 19vw;
+}
+
+
+button {
+    font-weight: 400;
+    font-size: 1vw;
+    width: 17vw;
+    padding: 0.8vw;
+    background-color: #3B0201;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 3vw 0 0 9vw;
+
+
+}
+
+textarea {
+    width: 17vw;
+    height: 13.5vw;
+    font-size: 14px;
+    margin: 0.5vw 0 0 0;
+    padding: 0.8vw;
+    border: unset;
+    border: solid 0.1vw #ffffff;
+    outline: none;
+    background-color: #0F0F0F;
+    resize: none;
+}
+
+
+.photo {
+    margin: 0vw 2.5vw;
+    width: 13.5vw;
+    display: block;
+}
+
+.photo img {
+    height: 17.5vw;
+    width: 13.5vw;
+    object-fit: cover;
+    margin-top: 3.2vw;
+}
+
+.input-file {
+
+    position: relative;
+    display: inline-block;
+}
+
+.input-file span {
+    margin: 0.58vw 0;
+    padding: 0.7vw 1vw;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #0F0F0F;
+    text-align: center;
+    background-color: #BEBEBE;
+    box-sizing: border-box;
+    border: none;
+    transition: background-color 0.2s;
+    font-size: 1vw;
+    width: 11vw;
+    white-space: nowrap;
+    /* Отменяем перенос текста */
+    overflow: hidden;
+    /* Обрезаем содержимое */
+    text-overflow: ellipsis;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus+span {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+    background-color: #c40300;
+}
+
+.input-file:active span {
+    background-color: #3B0201;
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled+span {
+    background-color: #eee;
+}
+
+
+
+.portfolioadm {
+    display: flex;
+
+}
+
+.butts {
+    width: 13vw;
+    margin: 0 1.5vw;
+}
+
+.portfolio {
+    width: 27vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hover-effect-btn img {
+    height: 8vw;
+    width: 8vw;
+    object-fit: cover;
+}
+
+.hover-effect-btn {
+    position: relative;
+    height: 8vw;
+    width: 8vw;
+    margin: 0.3vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background 0.5s ease;
+}
+
+.hover-effect-btn:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.664);
+    /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+}
+
+.button {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 65%;
+    /* Отступ сверху */
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    cursor: pointer;
+}
+
+.button a {
+    padding: 0.8vw 1.8vw;
+    /* Отступ */
+    text-align: center;
+    background: #3B0201;
+    /* Цвет кнопки */
+    color: white;
+    /* Цвет текста */
+    z-index: 1;
+}
+
+.hover-effect-btn:hover .button {
+    opacity: 1;
+}
+

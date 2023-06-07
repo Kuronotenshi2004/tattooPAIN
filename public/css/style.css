@@ -1,0 +1,802 @@
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Hanuman&display=swap");
+
+textarea:focus,
+input:focus {
+    outline: 0;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+textarea,
+input,
+button,
+label,
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+select,
+::placeholder {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/back/11618866939_25-phonoteka_org-p-cherno-krasnii-fon-dlya-rabochego-stola-26.jpg);
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav1 {
+    width: 45%;
+    font-size: 1.3vw;
+    list-style: none;
+    display: flex;
+    margin-top: 4vw;
+    justify-content: center;
+    position: absolute;
+}
+
+.nav2 {
+    width: 45%;
+    font-size: 1.3vw;
+    list-style: none;
+    display: flex;
+    margin-left: 55vw;
+    margin-top: -6.2vw;
+    justify-content: center;
+    position: absolute;
+}
+
+.theader {
+    display: flex;
+    justify-content: center;
+}
+
+.logotip {
+    height: 10.1vw;
+}
+
+.main,
+.entry,
+.master,
+.portf,
+.reg,
+.number {
+    width: 17%;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 4vw 2vw 0 2vw;
+}
+
+.main:hover,
+.entry:hover,
+.master:hover,
+.portf:hover,
+.reg:hover,
+.number:hover,
+.main:focus,
+.entry:focus,
+.master:focus,
+.portf:focus,
+.reg:focus,
+.number:focus {
+    background-color: #070000c2;
+    padding: 0.5vw 0vw;
+}
+
+.exit {
+    display: none;
+}
+
+.cab {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.headtext {
+    display: block;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "Hanuman", serif;
+    font-size: 7.28vw;
+    letter-spacing: 1em;
+    margin-top: 1.5vw;
+    margin-left: 5.5vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header h2 {
+    font-size: 2.1vw;
+    margin-top: 7vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header h3 {
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container1 {
+    background: linear-gradient(180deg, #070000 12.5%, #0f0f0f 32.52%);
+    display: flex;
+}
+
+.hand {
+    width: 40%;
+    margin-top: 7vw;
+    margin-left: 13vw;
+    display: flex;
+}
+
+.red1 {
+    width: 8vw;
+    height: 13vw;
+    background-color: #3b0201;
+}
+
+.hover {
+    position: absolute;
+    width: 27.5vw;
+    margin: 1.4vw 1.1vw;
+    height: 33vw;
+    border: solid 1px #ffffff;
+}
+
+.red2 {
+    position: absolute;
+    width: 8vw;
+    height: 13vw;
+    background-color: #3b0201;
+    margin: 23vw 22vw;
+}
+
+.img1 {
+    position: absolute;
+    width: 25vw;
+    margin: 3vw 2.5vw;
+}
+
+.img1 img {
+    width: 25vw;
+}
+
+.c1text {
+    width: 40%;
+    margin-top: 9vw;
+    margin-left: 9vw;
+    padding-right: 15vw;
+}
+
+.c1text h2 {
+    font-size: 3.2vw;
+}
+
+.c1text p {
+    font-weight: 300;
+    width: 30vw;
+    margin-top: 3.5vw;
+    font-size: 1.1vw;
+    line-height: 3vw;
+}
+
+.container2 {
+    background-color: #0f0f0f;
+    padding-bottom: 10vh;
+}
+
+.container2 h2 {
+    padding-top: 5vw;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots img {
+    height: 0.8vw;
+    margin: 2vw 1vw;
+}
+
+.parent {
+    width: 80vw;
+    height: 53vw;
+    margin-left: 10vw;
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    object-fit: cover;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div4 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div5 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div6 {
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.div1 img {
+    width: 19vw;
+    height: 26vw;
+    margin-bottom: 1vw;
+    object-fit: cover;
+}
+
+.div2 img,
+.div3 img,
+.div4 img {
+    width: 27vw;
+    height: 16.85vw;
+    object-fit: cover;
+}
+
+.div5 img {
+    width: 32vw;
+    height: 17vw;
+    object-fit: cover;
+}
+
+.im5 {
+    margin-right: 1vw;
+    width: 15.2vw;
+}
+
+.div6 img {
+    height: 35vw;
+    width: 15.2vw;
+    object-fit: cover;
+}
+
+.container3 {
+    height: 22vh;
+    background-image: url(../img/back/1612873627_3-p-krutoi-cherno-krasnii-fon-3.jpg);
+    background-position: center;
+}
+
+.container3 h2 {
+    padding-top: 2vw;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.container3 h3 {
+    font-size: 2.1vw;
+    padding-top: 1.2vw;
+    text-align: center;
+}
+
+.container4 {
+    background-color: #0f0f0f;
+    padding-bottom: 10vh;
+}
+
+.container4 h2 {
+    padding-top: 9vw;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.masters {
+    width: 88vw;
+    margin-left: 6vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.mast {
+    margin: 4vw 1.5vw;
+    width: 23.7vw;
+    display: flex;
+}
+
+.mast img {
+    height: 25vw;
+    width: 23.7vw;
+    object-fit: cover;
+}
+
+.name {
+    position: absolute;
+    background-color: #07000096;
+    margin: 21vw 0 0 3vw;
+    padding: 0.7vw;
+}
+
+footer {
+    height: 20vw;
+    background-color: black;
+}
+
+footer h1 {
+    font-family: "Hanuman", serif;
+    font-size: 3vw;
+    letter-spacing: 1em;
+    padding-top: 5vw;
+    margin-left: 8vw;
+}
+
+.contacts {
+    display: block;
+    content: right;
+
+    margin-right: 8vw;
+}
+
+.icons {
+    width: 20vw;
+    margin-top: -3vw;
+    margin-left: 77vw;
+}
+
+.icons img {
+    height: 2.5vw;
+    margin-left: 1.9vw;
+}
+
+footer p {
+    margin-left: 45vw;
+    font-size: 1.3vw;
+    margin-top: 1.3vw;
+    text-align: right;
+}
+
+.main1,
+.entry1,
+.master1,
+.portf1,
+.reg1,
+.number1 {
+    display: none;
+}
+
+.exit1,
+.cab1 {
+    display: none;
+}
+
+#menuToggle input {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .main,
+    .entry,
+    .master,
+    .portf,
+    .reg,
+    .number {
+        display: none;
+    }
+
+    .main1,
+    .entry1,
+    .master1,
+    .portf1,
+    .reg1,
+    .number1 {
+        display: block;
+        font-size: 5vw;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 1vw 2vw 0 2vw;
+    }
+
+    .exit1,
+    .cab1 {
+        display: none;
+    }
+
+    .theader {
+        padding: 2vw 3vw;
+        justify-content: right;
+    }
+
+    .logotip {
+        height: 10vh;
+    }
+
+    .container {
+        display: flex;
+        margin-top: -10vh;
+        align-items: center;
+    }
+
+    .phone {
+        width: 80%;
+        height: 100vh;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    nav {
+        height: 20vw;
+    }
+
+    #menuToggle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle input {
+        display: flex;
+        width: 4vw;
+        height: 3.2vw;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+
+    #menuToggle span {
+        display: flex;
+        width: 10vw;
+        height: 1vw;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-3px, -1px);
+        background: #36383f;
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    #menu {
+        position: absolute;
+        width: 180px;
+        height: 400px;
+        margin: -50px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background-color: #000000;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+
+    #menu li {
+        padding: 10px 0;
+        transition-delay: 2s;
+    }
+
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+
+    header {
+        background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(../img/back/qqq1618866939_25-phonoteka_org-p-cherno-krasnii-fon-dlya-rabochego-stola-26.jpg);
+    }
+
+    header h1 {
+        font-size: 13vw;
+        margin-top: 7vh;
+        margin-left: 10vw;
+    }
+
+    header h2 {
+        font-size: 7vw;
+        margin-top: 25vh;
+    }
+
+    header h3 {
+        font-size: 5vw;
+        margin-top: 7vh;
+    }
+
+    .container1 {
+        height: 100vh;
+        background: linear-gradient(180deg, #070000 5.5%, #0f0f0f 20.52%);
+        display: flex;
+    }
+
+    .hand {
+        display: none;
+    }
+
+    .c1text {
+        width: 80%;
+        margin-top: 15vh;
+        margin-left: 9vh;
+        padding-right: 15vh;
+    }
+
+    .c1text h2 {
+        font-size: 3.4vh;
+    }
+
+    .c1text p {
+        font-weight: 300;
+        width: 70vw;
+        margin-top: 3vh;
+        font-size: 2vh;
+        line-height: 4vh;
+    }
+
+    .container2 {
+        background-color: #0f0f0f;
+        height: 130vh;
+    }
+
+    .container2 h2 {
+        padding-top: 3vh;
+        font-size: 3.4vh;
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dots img {
+        height: 0.8vh;
+        margin: 3vh 2vw;
+    }
+
+    .parent {
+        width: 80vw;
+        height: 53vw;
+        margin-left: 10vw;
+        padding-top: 5vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 1vw;
+        grid-row-gap: 1vw;
+        object-fit: cover;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 3vw;
+        grid-row-gap: 3vw;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 4 / 2;
+    }
+
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .div3 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .div4 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .div5 {
+        grid-area: 4 / 1 / 5 / 3;
+    }
+
+    .div6 {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+
+    .div1 img {
+        width: 33vw;
+        height: 23.4vh;
+        margin-bottom: 3vw;
+        object-fit: cover;
+    }
+
+    .div2 img,
+    .div3 img,
+    .div4 img {
+        width: 44vw;
+        height: 15vh;
+        object-fit: cover;
+    }
+
+    .div5 img {
+        width: 80vw;
+        height: 17vh;
+        object-fit: cover;
+    }
+
+    .im5 {
+        margin-right: 3vw;
+        width: 15.2vw;
+    }
+
+    .div6 img {
+        height: 35vh;
+        width: 37vw;
+        object-fit: cover;
+    }
+
+    .container3 {
+        height: 20vh;
+        background-image: url(../img/back/1612873627_3-p-krutoi-cherno-krasnii-fon-3.jpg);
+        background-position: center;
+    }
+
+    .container3 h2 {
+        width: 70vw;
+        margin-left: 15vw;
+        padding-top: 5vh;
+        font-size: 3vh;
+    }
+
+    .container3 h3 {
+        width: 60%;
+        margin-left: 20vw;
+        font-size: 1.9vh;
+        padding-top: 1.9vh;
+    }
+
+    .container4 {
+        background-color: #0f0f0f;
+    }
+
+    .container4 h2 {
+        padding-top: 3vh;
+        font-size: 3.4vh;
+    }
+
+    .masters {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .mast {
+        margin: 4vw 1.5vw;
+        width: 60vw;
+        display: flex;
+    }
+
+    .mast img {
+        height: 31vh;
+        width: 60vw;
+        object-fit: cover;
+    }
+
+    .name {
+        position: absolute;
+        background-color: #07000096;
+        margin: 25vh 0 0 6vw;
+        padding: 1vw;
+        font-size: 2.6vh;
+    }
+
+    footer {
+        height: 30vh;
+        background-color: black;
+    }
+
+    footer h1 {
+        font-family: "Hanuman", serif;
+        font-size: 3vh;
+        letter-spacing: 1em;
+        padding-top: 5vh;
+        text-align: center;
+    }
+
+    .contacts {
+        display: flex;
+        margin-right: 16vw;
+    }
+
+    .icons {
+        margin-top: 9vh;
+        margin-left: 24vw;
+        position: absolute;
+        display: flex;
+    }
+
+    .icons img {
+        height: 3.5vh;
+        margin-left: 8vw;
+    }
+    .nmbr {
+        position: absolute;
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 2.5vh;
+        margin-left: 32vw;
+    }
+
+    .adress {
+        position: relative;
+        margin-top: 16vh;
+        font-size: 2vh;
+        text-align: center;
+        margin-left: 17vw;
+    }
+}

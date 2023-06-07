@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+textarea,
+input,
+button,
+label,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+span,
+select,
+::placeholder {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 30px;
+    margin-top: -3vw;
+
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+input {
+    width: 28vw;
+    font-size: 14px;
+    margin: 1vw 0 0 0;
+    padding: 0.8vw;
+    border: unset;
+    border: solid 0.2vw #960200;
+    outline: none;
+    background-color: #0F0F0F;
+}
+
+button {
+    font-weight: 400;
+    font-size: 1vw;
+    width: 18vw;
+    padding: 0.8vw;
+    background-color: #3B0201;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 4vw 0 0 0;
+    ;
+}
+
+a {
+    color: #db0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.msg {
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    text-align: right;
+    color: #ffffff;
+}
+
+img {
+    width: 29vw;
+}
+
+p {
+    margin: 1vw 0;
+    font-size: 1vw;
+}
+
+.reg {
+    width: 15vw;
+}
+
+.input-file {
+    position: relative;
+    display: inline-block;
+}
+
+.input-file span {
+    margin: 1.5vw 0 0 0;
+    padding: 0.8vw;
+    border: unset;
+    border: solid 0.1vw #000;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #3B0201;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+h3 {
+    margin-top: 2vw;
+}
+
+.decoration {
+    width: 35%;
+    display: flex;
+    margin-top: -2vw;
+    padding-left: 9vw;
+}
+
+.sq1 {
+    width: 13vw;
+    height: 13vw;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    margin: 3vw 0 0 0vw;
+}
+
+.fraim {
+
+    position: absolute;
+    background-color: #3B0201;
+    width: 17vw;
+    height: 26vw;
+    margin: 3vw 0 0 6vw;
+
+}
+
+.sq2 {
+    width: 12vw;
+    height: 10vw;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    margin: 17vw 0 0 9vw;
+
+}
+
+
+.i1 {
+    width: 12vw;
+    position: absolute;
+    margin: 0vw 0 0 4vw;
+}
+
+.i2 {
+    width: 12vw;
+    position: absolute;
+    margin: 18vw 0 0 4vw
+}
+
+.i3 {
+    width: 13vw;
+    position: absolute;
+    margin: 8vw 0 0 12vw;
+}
+
+.arrow {
+    margin: 36vw 0 0 0vw;
+    cursor: pointer;
+    width: 25vw;
+}
+
+@media (max-width: 550px) {
+
+    .decoration {
+        display: none;
+    }
+
+    form {
+        width: 70vw;
+        margin-top: 1vw;
+
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    input {
+        width: 60vw;
+        font-size: 6vw;
+        margin: 2vh 0 0 0;
+        padding: 0.8vw;
+        border: unset;
+        border: solid 0.2vw #960200;
+        outline: none;
+        background-color: #0F0F0F;
+    }
+
+    button {
+        font-size: 3.5vw;
+        width: 40vw;
+        padding: 3vw 10vw;
+        color: rgb(255, 255, 255);
+        margin: 4vh 0 0 0;
+        ;
+    }
+
+    p {
+        margin: 3vh 0;
+        font-size: 4vw;
+    }
+
+
+    h3 {
+        margin-top: 4vh;
+
+    }
+
+    body {
+        font-size: 4vw;
+    }
+
+}
