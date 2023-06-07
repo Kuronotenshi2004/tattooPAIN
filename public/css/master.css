@@ -148,6 +148,7 @@ header {
 .icons img {
     height: 3vw;
     margin-top: 3vw;
+    cursor: pointer;
 }
 
 .mastfoto {
@@ -209,7 +210,7 @@ hr {
 
 .container2 {
     margin-top: -2vw;
-    padding-bottom: 10vh;
+    
 }
 
 .container2 h2 {
@@ -231,6 +232,7 @@ hr {
     height: 22vh;
     background-image: url(../img/back/1612873627_3-p-krutoi-cherno-krasnii-fon-3.jpg);
     background-position: center;
+    margin-bottom: 9vh;
 }
 
 .container3 h2 {
@@ -250,7 +252,6 @@ hr {
 }
 
 .container4 h2 {
-    padding-top: 9vw;
     font-size: 3.2vw;
     text-align: center;
 }
@@ -263,24 +264,43 @@ hr {
     justify-content: center;
 }
 
+.container4 {
+    background-color: #100001;
+    padding-bottom: 10vh;
+}
+
+.container4 h2 {
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.masters {
+    width: 83vw;
+    margin-left: 8.5vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
 .mast {
     margin: 4vw 1.5vw;
-    width: 23.7vw;
+    width: 24.66vw;
     display: flex;
 }
 
 .mast img {
-    height: 32vw;
-    width: 23.7vw;
+    height: 25vw;
+    width: 24.66vw;
     object-fit: cover;
 }
 
 .name {
     position: absolute;
     background-color: #07000096;
-    margin: 28vw 0 0 3vw;
+    margin: 21vw 0 0 3vw;
     padding: 0.7vw;
 }
+
 
 footer {
     height: 20vw;

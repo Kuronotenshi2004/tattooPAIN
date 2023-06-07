@@ -33,7 +33,7 @@
     </header>
 
     <div class="container4" id="mastersid">
-        <a href="adminaddmast"><h2>Добавить мастера +</h2></a>
+        <a href="adminaddmast"><h2>Добавить мастера</h2></a>
         
         <div class="masters">
             <a href="master">
